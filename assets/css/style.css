@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url('../image/working.jpg');
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+.shareIndex {
+  background-image: url("assets/img.jpg");
+}
+
+.container .starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#navbar #logo-left{
+  padding-right: 50px;
+}
+
+blockquote .blockquote-hover{
+  background-color: blue;
+}
